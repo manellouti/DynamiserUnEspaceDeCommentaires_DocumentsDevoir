@@ -30,3 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         `;
+
+        // Ajout du commentaire à la liste
+        commentList.appendChild(newComment);
+
+        // Réinitialisation des champs du formulaire
+        form.reset();
+    });
+});
